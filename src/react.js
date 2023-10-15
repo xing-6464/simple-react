@@ -1,4 +1,5 @@
 import { REACT_ELEMENT } from './utils'
+import { Component } from './Component'
 
 function createElement(type, properties, children) {
   let ref = properties.ref || null
@@ -26,6 +27,7 @@ function createElement(type, properties, children) {
 
 const React = {
   createElement,
+  Component,
 }
 
 export default React
